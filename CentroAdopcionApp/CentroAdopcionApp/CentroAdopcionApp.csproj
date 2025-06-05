@@ -46,14 +46,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Adopciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Adopciones.Designer.cs">
+      <DependentUpon>Adopciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adoptantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adoptantes.Designer.cs">
+      <DependentUpon>Adoptantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gatos.Designer.cs">
+      <DependentUpon>Gatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otros.Designer.cs">
+      <DependentUpon>Otros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perros.Designer.cs">
+      <DependentUpon>Perros.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Adopciones.resx">
+      <DependentUpon>Adopciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adoptantes.resx">
+      <DependentUpon>Adoptantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados.resx">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gatos.resx">
+      <DependentUpon>Gatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otros.resx">
+      <DependentUpon>Otros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perros.resx">
+      <DependentUpon>Perros.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
