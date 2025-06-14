@@ -62,5 +62,50 @@ namespace CentroAdopcionApp
         {
             Application.Exit();
         }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnColaboradores_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdoptantes_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOtros_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile("CentroAdopcionApp/Resources/logo.png"); // Asegúrate de que la ruta sea correcta    
+        }
     }
 }
