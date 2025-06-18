@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,47 +52,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adopciones.cs">
+    <Compile Include="FrmAdopciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adopciones.Designer.cs">
-      <DependentUpon>Adopciones.cs</DependentUpon>
+    <Compile Include="FrmAdopciones.Designer.cs">
+      <DependentUpon>FrmAdopciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="Adoptantes.cs">
+    <Compile Include="FrmAdoptantes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adoptantes.Designer.cs">
-      <DependentUpon>Adoptantes.cs</DependentUpon>
+    <Compile Include="FrmAdoptantes.Designer.cs">
+      <DependentUpon>FrmAdoptantes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Empleados.cs">
+    <Compile Include="FrmVoluntarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleados.Designer.cs">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <Compile Include="FrmVoluntarios.Designer.cs">
+      <DependentUpon>FrmVoluntarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gatos.cs">
+    <Compile Include="FrmAnimales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gatos.Designer.cs">
-      <DependentUpon>Gatos.cs</DependentUpon>
+    <Compile Include="FrmAnimales.Designer.cs">
+      <DependentUpon>FrmAnimales.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuPrincipal.cs">
+    <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuPrincipal.Designer.cs">
-      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    <Compile Include="FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Otros.cs">
+    <Compile Include="FrmConsultas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Otros.Designer.cs">
-      <DependentUpon>Otros.cs</DependentUpon>
+    <Compile Include="FrmConsultas.Designer.cs">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
     </Compile>
     <Compile Include="Perros.cs">
       <SubType>Form</SubType>
@@ -96,26 +102,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Adopciones.resx">
-      <DependentUpon>Adopciones.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAdopciones.resx">
+      <DependentUpon>FrmAdopciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Adoptantes.resx">
-      <DependentUpon>Adoptantes.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAdoptantes.resx">
+      <DependentUpon>FrmAdoptantes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleados.resx">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <EmbeddedResource Include="FrmVoluntarios.resx">
+      <DependentUpon>FrmVoluntarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gatos.resx">
-      <DependentUpon>Gatos.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAnimales.resx">
+      <DependentUpon>FrmAnimales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuPrincipal.resx">
-      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Otros.resx">
-      <DependentUpon>Otros.cs</DependentUpon>
+    <EmbeddedResource Include="FrmConsultas.resx">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perros.resx">
       <DependentUpon>Perros.cs</DependentUpon>
@@ -129,6 +135,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -16,7 +16,7 @@ namespace CentroAdopcionApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(true);
-            Application.Run(new frmLogin());
+            Application.Run(new FrmLogin());
             //Application.Run(new frmLogin());
 
         }

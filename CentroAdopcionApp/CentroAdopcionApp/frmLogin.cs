@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CentroAdopcionApp
 {
-    public partial class frmLogin : Form
+    public partial class FrmLogin : Form
     {
-        public frmLogin()
+        public FrmLogin()
         {
             InitializeComponent();
         }
@@ -37,11 +37,11 @@ namespace CentroAdopcionApp
             string usuario = txtUsuario.Text.Trim();
             string contraseña = txtContraseña.Text.Trim();
             // Validacion para iniciar sesion 
-            if (usuario == "admin" && contraseña == "1234")
+            if (usuario == "Elías" && contraseña == "1234")
             {
                 MessageBox.Show("Inicio de sesión exitoso", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide(); // Oculta el formulario de login
-                frmMenuPrincipal menuPrincipal = new frmMenuPrincipal(); // Crea una instancia del formulario principal
+                FrmMenuPrincipal menuPrincipal = new FrmMenuPrincipal(usuario); // Crea una instancia del formulario principal
                 menuPrincipal.Show(); // Muestra el formulario principal
             }
             else

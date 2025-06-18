@@ -1,6 +1,6 @@
 ﻿namespace CentroAdopcionApp
 {
-    partial class frmLogin
+    partial class FrmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -77,9 +77,9 @@
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(348, 433);
+            this.btnlogin.Location = new System.Drawing.Point(348, 427);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(103, 33);
+            this.btnlogin.Size = new System.Drawing.Size(103, 39);
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "Iniciar Sesion ";
             this.btnlogin.UseVisualStyleBackColor = true;
