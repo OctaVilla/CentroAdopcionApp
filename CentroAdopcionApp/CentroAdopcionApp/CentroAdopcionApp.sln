@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroAdopcionApp", "CentroAdopcionApp\CentroAdopcionApp.csproj", "{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {768560DA-0754-4E0A-A90C-8458BF46CAAD}
+	EndGlobalSection
+EndGlobal

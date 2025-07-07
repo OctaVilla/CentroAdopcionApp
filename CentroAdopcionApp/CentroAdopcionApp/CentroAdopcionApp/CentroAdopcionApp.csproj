@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CentroAdopcionApp</RootNamespace>
+    <AssemblyName>CentroAdopcionApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\MascotaDAO.cs" />
+    <Compile Include="Entidad\Mascota.cs" />
+    <Compile Include="FrmAcercadp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAcercadp.Designer.cs">
+      <DependentUpon>FrmAcercadp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdopciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdopciones.Designer.cs">
+      <DependentUpon>FrmAdopciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdoptantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdoptantes.Designer.cs">
+      <DependentUpon>FrmAdoptantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMascotas.Designer.cs">
+      <DependentUpon>frmMascotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVoluntarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVoluntarios.Designer.cs">
+      <DependentUpon>FrmVoluntarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGatos.Designer.cs">
+      <DependentUpon>FrmGatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultas.Designer.cs">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perros.Designer.cs">
+      <DependentUpon>Perros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAcercadp.resx">
+      <DependentUpon>FrmAcercadp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdopciones.resx">
+      <DependentUpon>FrmAdopciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdoptantes.resx">
+      <DependentUpon>FrmAdoptantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMascotas.resx">
+      <DependentUpon>frmMascotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVoluntarios.resx">
+      <DependentUpon>FrmVoluntarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGatos.resx">
+      <DependentUpon>FrmGatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultas.resx">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perros.resx">
+      <DependentUpon>Perros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

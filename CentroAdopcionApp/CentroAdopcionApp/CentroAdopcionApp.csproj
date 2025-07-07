@@ -52,6 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\AdoptantesDAO.cs" />
+    <Compile Include="Datos\MascotaDAO.cs" />
+    <Compile Include="Entidad\Adoptante.cs" />
+    <Compile Include="Entidad\Mascota.cs" />
+    <Compile Include="FrmAcercadp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAcercadp.Designer.cs">
+      <DependentUpon>FrmAcercadp.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAdopciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +73,12 @@
     </Compile>
     <Compile Include="FrmAdoptantes.Designer.cs">
       <DependentUpon>FrmAdoptantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMascotas.Designer.cs">
+      <DependentUpon>frmMascotas.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmVoluntarios.cs">
       <SubType>Form</SubType>
@@ -76,11 +92,11 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAnimales.cs">
+    <Compile Include="FrmGatos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAnimales.Designer.cs">
-      <DependentUpon>FrmAnimales.cs</DependentUpon>
+    <Compile Include="FrmGatos.Designer.cs">
+      <DependentUpon>FrmGatos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -102,11 +118,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAcercadp.resx">
+      <DependentUpon>FrmAcercadp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAdopciones.resx">
       <DependentUpon>FrmAdopciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAdoptantes.resx">
       <DependentUpon>FrmAdoptantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMascotas.resx">
+      <DependentUpon>frmMascotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVoluntarios.resx">
       <DependentUpon>FrmVoluntarios.cs</DependentUpon>
@@ -114,8 +136,8 @@
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAnimales.resx">
-      <DependentUpon>FrmAnimales.cs</DependentUpon>
+    <EmbeddedResource Include="FrmGatos.resx">
+      <DependentUpon>FrmGatos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
