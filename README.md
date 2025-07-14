@@ -124,5 +124,15 @@ Capas principales:
 -	La base de datos se conecta usando SQL Server Express instalado localmente. 
 -	La cadena de conexión está en cada formulario que accede a datos. 
 -	Se recomienda manejar la cadena de conexión desde un archivo de configuración para facilitar cambiosfuturos. 
- 
+
+ 9. Conclusión 
+Este proyecto nos a permitió practicar: 
+-	Programación con C# y WinForms con el paradigma de programación Orientada a objetos. 
+-	Conexión y consultas a base de datos SQL Server. 
+-	Seguridad básica con hash de contraseñas. 
+-	Organización del código con capas. 
+-	Creación de interfaces amigables para el usuario. 
+
+Ventana de Acerca del Programa
+<img width="767" height="431" alt="image" src="https://github.com/user-attachments/assets/441a4a6c-ae26-4e36-9733-350fd512b646" />
 
