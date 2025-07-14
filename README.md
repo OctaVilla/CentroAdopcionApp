@@ -131,8 +131,10 @@ Este proyecto nos a permitió practicar:
 -	Conexión y consultas a base de datos SQL Server. 
 -	Seguridad básica con hash de contraseñas. 
 -	Organización del código con capas. 
--	Creación de interfaces amigables para el usuario. 
-
+-	Creación de interfaces amigables para el usuario.
+  
 Ventana de Acerca del Programa
+
+
 <img width="767" height="431" alt="image" src="https://github.com/user-attachments/assets/441a4a6c-ae26-4e36-9733-350fd512b646" />
 
