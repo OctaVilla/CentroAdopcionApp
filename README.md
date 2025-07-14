@@ -22,13 +22,14 @@ git push
 
 Centro Adopción 💻📚
 PROGRAMA DE WINDOWS FORM 
+Integrantes :
 ELÍAS ORTIZ, MIGUEL APONTE, OCTAVIO VILLASANTI 
  
 1. Introduccion 
 Este programa lo desarrollamos para gestionar la adopción de mascotas en un centro de adopción. La idea es tener un sistema de administracion simple pero funcional, donde se pueda registrar y administrar mascotas, aoptantes , voluntarios ,adopciones, veterinarios, y usuarios. Además, tiene seguridad con login y registro de usuarios con contraseña encriptada. 
 2. Tecnologias usadas 
 -	Lenguaje: C# 
--	Framework: Windows Forms para la interfaz gráfica 
+-	Framework:.NET ( Windows Forms para la interfaz gráfica ).
 -	Base de datos: SQL Server Express 
 -	Seguridad: Contraseñas encriptadas con SHA256 
 -	Arquitectura: Manejo por capas (Entidad, Datos, Presentación) para organizar mejor el código.
