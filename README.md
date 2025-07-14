@@ -56,5 +56,17 @@ Este programa lo desarrollamos para gestionar la adopción de mascotas en un cen
 -	Cada mascota tiene datos como nombre, tipo, raza, edad, etc. 
 <img width="641" height="457" alt="image" src="https://github.com/user-attachments/assets/3f25b333-2deb-4846-a875-2ed4a11747ac" />
 
+3.4. CRUD de Adoptantes 
+-Registrar Nuevos Adoptantes 
+-Con sus respectivos Datos y que se guarden en la base de datos CentroAdopcionDB 
+
+<img width="759" height="553" alt="image" src="https://github.com/user-attachments/assets/00667051-fe13-41f4-a9b4-71b6a9e89710" />
+
+3. 5. CRUD de Adopciones
+ Registro y administración de adopciones realizadas. 
+-	Permite asociar un adoptante con una mascota. 
+<img width="851" height="564" alt="image" src="https://github.com/user-attachments/assets/e91b86ea-5c71-4444-913d-4002d97a1fc7" />
+
+
 
 
