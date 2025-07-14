@@ -84,6 +84,45 @@ Este programa lo desarrollamos para gestionar la adopción de mascotas en un cen
 
 <img width="851" height="564" alt="image" src="https://github.com/user-attachments/assets/e91b86ea-5c71-4444-913d-4002d97a1fc7" />
 
+3.6. CRUD de Voluntarios
+Cargamos los datos de los Voluntarios  
+-Guardamos en la base de datos para posterior consulta 
+
+<img width="916" height="610" alt="image" src="https://github.com/user-attachments/assets/f1743aee-3669-436a-8f77-fa15372c6dc9" />
 
 
+ 
+3.7. CRUD de Veterinarios
+ Se gestionan los veterinarios que atienden en el centro. 
+-	Permite agregar, editar o eliminar datos de veterinarios. 
+<img width="772" height="543" alt="image" src="https://github.com/user-attachments/assets/c6ab214b-255f-42cb-abcf-e77487eb2776" />
+
+
+
+ 
+4. Estructura del proyecto 
+Capas principales: 
+-	Entidad: Clases que representan los datos (Mascotas,Adoptantes,Voluntarios,Usuario,Adopciónes, Veterinario). 
+-	Datos: Clases  DAO que se encargan de conectar con la base de datos y ejecutar consultas SQL. 
+-	Presentación: Formularios y lógica UI (WinForms). 
+
+5. Seguridad 
+-	Las contraseñas nunca se guardan en texto plano, sino que se transforman con SHA256 antes de guardar o comparar. 
+-	Esto evita que, en caso de un ataque, las contraseñas estén expuestas. 
+6. Como usar el programa 
+-	Abrís el programa y aparece la pantalla de login. 
+-	Si no tenés usuario, podés crear uno desde el formulario de registro. 
+-	Al iniciar sesión, se abre el menú principal con opciones para administrar mascotas, adopciones,veterinarios etc. 
+-	En cada módulo podés crear, editar, eliminar registros. 
+-	El programa tiene mensajes claros para guiar al usuario. 
+7. Mejoras futuras 
+-	Agregar reportes y exportación a PDF o Excel. 
+-	Implementar roles con permisos más detallados. 
+-	Mejorar la interfaz con temas y estilos modernos. 
+-	Añadir notificaciones o recordatorios para vacunas o citas. 
+8. Consideraciones técnicas 
+-	La base de datos se conecta usando SQL Server Express instalado localmente. 
+-	La cadena de conexión está en cada formulario que accede a datos. 
+-	Se recomienda manejar la cadena de conexión desde un archivo de configuración para facilitar cambiosfuturos. 
+ 
 
