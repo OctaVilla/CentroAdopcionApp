@@ -49,4 +49,12 @@ Este programa lo desarrollamos para gestionar la adopción de mascotas en un cen
 -	Contraseñas se guardan hasheadas. 
 
 
-  
+  <img width="435" height="442" alt="image" src="https://github.com/user-attachments/assets/2ded6e56-85e0-4c17-b496-c13a8869959e" />
+
+  3.3. CRUD de Mascotas 
+-	Se puede crear, leer, actualizar y eliminar mascotas. 
+-	Cada mascota tiene datos como nombre, tipo, raza, edad, etc. 
+<img width="641" height="457" alt="image" src="https://github.com/user-attachments/assets/3f25b333-2deb-4846-a875-2ed4a11747ac" />
+
+
+
