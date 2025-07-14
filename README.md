@@ -41,4 +41,12 @@ Este programa lo desarrollamos para gestionar la adopción de mascotas en un cen
 -	La contraseña se guarda en la base de datos de forma segura con hash SHA256. 
 -	Solo usuarios registrados pueden entrar al sistema. 
 
+<img width="362" height="434" alt="image" src="https://github.com/user-attachments/assets/47960f15-511d-437c-a577-4b4cc2182acc" />
+
+3.2. Registro de usuarios 
+-	Los usuarios nuevos se registran con usuario, contraseña y rol (Administrador, Usuario, Voluntario). 
+-	Antes de registrar, el sistema verifica que el usuario no exista. 
+-	Contraseñas se guardan hasheadas. 
+
+
   
