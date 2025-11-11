@@ -76,10 +76,7 @@ namespace CentroAdopcionApp.Datos
 
 
         }
-        private void CargarMascotas()
-        {
-            Lista.DataSource = MascotaDAO.ObtenerMascotas();
-        }
+    
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -110,9 +107,34 @@ namespace CentroAdopcionApp.Datos
 
         }
 
+        List<Mascota> todasLasMascotas = new List<Mascota>();
+
+        private void CargarMascotas()
+        {
+            todasLasMascotas = MascotaDAO.ObtenerMascotas();
+            dgvMascotas.DataSource = todasLasMascotas;
+        }
+       
+
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvMascotas.Rows[e.RowIndex];
+                idSeleccionado = Convert.ToInt32(row.Cells["IdMascota"].Value);
+                txtNombre.Text = row.Cells["Nombre"].Value.ToString();
+                txtEdad.Text = row.Cells["Edad"].Value.ToString();
+                cboTipo.SelectedItem = row.Cells["Tipo"].Value.ToString();
+                txtRaza.Text = row.Cells["Raza"].Value.ToString();
+                cboEstado.SelectedItem = row.Cells["Estado"].Value.ToString();
+            }
 
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            Limpiar();
         }
     }
 }

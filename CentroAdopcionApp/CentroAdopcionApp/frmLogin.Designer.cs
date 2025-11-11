@@ -32,8 +32,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.btnlogin = new System.Windows.Forms.Button();
+            this.btnlniciarSesion = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -75,15 +76,15 @@
             this.txtContraseña.UseSystemPasswordChar = true;
             this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             // 
-            // btnlogin
+            // btnlniciarSesion
             // 
-            this.btnlogin.Location = new System.Drawing.Point(348, 427);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(103, 39);
-            this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "Iniciar Sesion ";
-            this.btnlogin.UseVisualStyleBackColor = true;
-            this.btnlogin.Click += new System.EventHandler(this.button1_Click);
+            this.btnlniciarSesion.Location = new System.Drawing.Point(348, 427);
+            this.btnlniciarSesion.Name = "btnlniciarSesion";
+            this.btnlniciarSesion.Size = new System.Drawing.Size(103, 39);
+            this.btnlniciarSesion.TabIndex = 4;
+            this.btnlniciarSesion.Text = "Iniciar Sesion ";
+            this.btnlniciarSesion.UseVisualStyleBackColor = true;
+            this.btnlniciarSesion.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -96,20 +97,31 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "INGRESAR ";
             // 
-            // frmLogin
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Location = new System.Drawing.Point(164, 427);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(103, 39);
+            this.btnRegistrar.TabIndex = 6;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(586, 605);
+            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.btnlniciarSesion);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "frmLogin";
-            this.Text = "Acceder";
+            this.Name = "FrmLogin";
+            this.Text = "Ingresar";
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -121,8 +133,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtContraseña;
-        private System.Windows.Forms.Button btnlogin;
+        private System.Windows.Forms.Button btnlniciarSesion;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.Button btnRegistrar;
     }
 }

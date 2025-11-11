@@ -26,9 +26,19 @@ namespace CentroAdopcionApp
         private void frmAdoptantes_Load(object sender, EventArgs e)
         {
             // Cargar la lista de adoptantes al iniciar el formulario
-            CargarAdoptantes();
+          
+            if (!AdoptantesDAO.ProbarConexion())
+            {
+                MessageBox.Show("No se pudo conectar con la base de datos.");
+            }
+            else
+            {
+                CargarAdoptantes();
+            }
 
         }
+           
+
         private void CargarAdoptantes()
         {
             dgvAdoptantes.DataSource = AdoptantesDAO.ObtenerAdoptantes();

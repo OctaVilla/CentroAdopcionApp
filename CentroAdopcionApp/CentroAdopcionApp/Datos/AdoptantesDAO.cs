@@ -1,13 +1,14 @@
-﻿using System;
+﻿using CentroAdopcionApp.Entidad;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using CentroAdopcionApp.Entidad;
+using System.Windows.Forms;
 
 namespace CentroAdopcionApp.Datos
 {
     public class AdoptantesDAO
     {
-        private static string connectionString = "Server=localhost\\SQLEXPRESS;Database=CentroAdopcion;Trusted_Connection=True;TrustServerCertificate=True;";
+        private static string connectionString = "Server=localhost\\SQLEXPRESS;Database=CentroAdopcionDB;Trusted_Connection=True;TrustServerCertificate=True;";
 
         public static List<Adoptante> ObtenerAdoptantes()
         {
@@ -54,6 +55,24 @@ namespace CentroAdopcionApp.Datos
                 return cmd.ExecuteNonQuery() > 0;
             }
         }
+        // Codigo Para Probar Conexion 
+        public static bool ProbarConexion()
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error de conexión: " + ex.Message);
+                    return false;
+                }
+            }
+        }
+
 
         public static bool ActualizarAdoptante(Adoptante a)
         {

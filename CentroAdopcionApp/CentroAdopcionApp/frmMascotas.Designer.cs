@@ -43,8 +43,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtEdad = new System.Windows.Forms.TextBox();
             this.cboEstado = new System.Windows.Forms.ComboBox();
-            this.dgvAdoptantes_SelecionChanged = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAdoptantes_SelecionChanged)).BeginInit();
+            this.dgvMascotas = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMascotas)).BeginInit();
             this.SuspendLayout();
             // 
             // Lista
@@ -53,12 +53,12 @@
             this.Lista.ItemHeight = 16;
             this.Lista.Location = new System.Drawing.Point(23, 12);
             this.Lista.Name = "Lista";
-            this.Lista.Size = new System.Drawing.Size(765, 164);
+            this.Lista.Size = new System.Drawing.Size(945, 164);
             this.Lista.TabIndex = 3;
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(713, 193);
+            this.btnBorrar.Location = new System.Drawing.Point(879, 193);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 23);
             this.btnBorrar.TabIndex = 7;
@@ -73,10 +73,11 @@
             this.btnNuevo.TabIndex = 6;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(443, 237);
+            this.txtNombre.Location = new System.Drawing.Point(611, 240);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(345, 22);
             this.txtNombre.TabIndex = 22;
@@ -114,7 +115,7 @@
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(443, 347);
+            this.cboTipo.Location = new System.Drawing.Point(611, 335);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(345, 24);
             this.cboTipo.TabIndex = 27;
@@ -122,7 +123,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(611, 582);
+            this.btnCancelar.Location = new System.Drawing.Point(779, 582);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(177, 23);
             this.btnCancelar.TabIndex = 29;
@@ -142,7 +143,7 @@
             // 
             // txtRaza
             // 
-            this.txtRaza.Location = new System.Drawing.Point(443, 409);
+            this.txtRaza.Location = new System.Drawing.Point(793, 397);
             this.txtRaza.Name = "txtRaza";
             this.txtRaza.Size = new System.Drawing.Size(163, 22);
             this.txtRaza.TabIndex = 30;
@@ -169,7 +170,7 @@
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(443, 291);
+            this.txtEdad.Location = new System.Drawing.Point(856, 291);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(100, 22);
             this.txtEdad.TabIndex = 34;
@@ -177,30 +178,30 @@
             // cboEstado
             // 
             this.cboEstado.FormattingEnabled = true;
-            this.cboEstado.Location = new System.Drawing.Point(454, 463);
+            this.cboEstado.Location = new System.Drawing.Point(835, 449);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(121, 24);
             this.cboEstado.TabIndex = 35;
             // 
-            // dgvAdoptantes_SelecionChanged
+            // dgvMascotas
             // 
-            this.dgvAdoptantes_SelecionChanged.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvAdoptantes_SelecionChanged.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAdoptantes_SelecionChanged.Location = new System.Drawing.Point(202, 23);
-            this.dgvAdoptantes_SelecionChanged.Name = "dgvAdoptantes_SelecionChanged";
-            this.dgvAdoptantes_SelecionChanged.RowHeadersWidth = 51;
-            this.dgvAdoptantes_SelecionChanged.RowTemplate.Height = 24;
-            this.dgvAdoptantes_SelecionChanged.Size = new System.Drawing.Size(545, 147);
-            this.dgvAdoptantes_SelecionChanged.TabIndex = 36;
-            this.dgvAdoptantes_SelecionChanged.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgvMascotas.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvMascotas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMascotas.Location = new System.Drawing.Point(45, 41);
+            this.dgvMascotas.Name = "dgvMascotas";
+            this.dgvMascotas.RowHeadersWidth = 51;
+            this.dgvMascotas.RowTemplate.Height = 24;
+            this.dgvMascotas.Size = new System.Drawing.Size(909, 122);
+            this.dgvMascotas.TabIndex = 36;
+            this.dgvMascotas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // frmMascotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
-            this.ClientSize = new System.Drawing.Size(824, 631);
-            this.Controls.Add(this.dgvAdoptantes_SelecionChanged);
+            this.ClientSize = new System.Drawing.Size(980, 620);
+            this.Controls.Add(this.dgvMascotas);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.label2);
@@ -219,7 +220,7 @@
             this.Name = "frmMascotas";
             this.Text = "Mascotas";
             this.Load += new System.EventHandler(this.frmMascotas_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAdoptantes_SelecionChanged)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMascotas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,6 +243,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.ComboBox cboEstado;
-        private System.Windows.Forms.DataGridView dgvAdoptantes_SelecionChanged;
+        private System.Windows.Forms.DataGridView dgvMascotas;
     }
 }

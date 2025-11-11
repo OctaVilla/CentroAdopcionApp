@@ -45,7 +45,9 @@
             this.numTelefono = new System.Windows.Forms.NumericUpDown();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.cboSucursal = new System.Windows.Forms.ComboBox();
+            this.dgvVoluntarios = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.numTelefono)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVoluntarios)).BeginInit();
             this.SuspendLayout();
             // 
             // Voluntarios
@@ -56,6 +58,7 @@
             this.Voluntarios.Name = "Voluntarios";
             this.Voluntarios.Size = new System.Drawing.Size(776, 164);
             this.Voluntarios.TabIndex = 1;
+            this.Voluntarios.SelectedIndexChanged += new System.EventHandler(this.Voluntarios_SelectedIndexChanged);
             // 
             // btnNuevo
             // 
@@ -65,6 +68,7 @@
             this.btnNuevo.TabIndex = 2;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnBorrar
             // 
@@ -74,6 +78,7 @@
             this.btnBorrar.TabIndex = 5;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // lblNombre
             // 
@@ -139,6 +144,7 @@
             this.btnGuardar.TabIndex = 15;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
@@ -148,6 +154,7 @@
             this.btnCancelar.TabIndex = 16;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtNombre
             // 
@@ -155,6 +162,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(345, 22);
             this.txtNombre.TabIndex = 17;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // txtApellido
             // 
@@ -162,6 +170,7 @@
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(345, 22);
             this.txtApellido.TabIndex = 18;
+            this.txtApellido.TextChanged += new System.EventHandler(this.txtApellido_TextChanged);
             // 
             // txtDireccion
             // 
@@ -169,6 +178,7 @@
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(345, 22);
             this.txtDireccion.TabIndex = 19;
+            this.txtDireccion.TextChanged += new System.EventHandler(this.txtDireccion_TextChanged);
             // 
             // numTelefono
             // 
@@ -176,6 +186,7 @@
             this.numTelefono.Name = "numTelefono";
             this.numTelefono.Size = new System.Drawing.Size(345, 22);
             this.numTelefono.TabIndex = 20;
+            this.numTelefono.ValueChanged += new System.EventHandler(this.numTelefono_ValueChanged);
             // 
             // txtCorreo
             // 
@@ -183,6 +194,7 @@
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(345, 22);
             this.txtCorreo.TabIndex = 21;
+            this.txtCorreo.TextChanged += new System.EventHandler(this.txtCorreo_TextChanged);
             // 
             // cboSucursal
             // 
@@ -191,6 +203,19 @@
             this.cboSucursal.Name = "cboSucursal";
             this.cboSucursal.Size = new System.Drawing.Size(345, 24);
             this.cboSucursal.TabIndex = 22;
+            this.cboSucursal.SelectedIndexChanged += new System.EventHandler(this.cboSucursal_SelectedIndexChanged);
+            // 
+            // dgvVoluntarios
+            // 
+            this.dgvVoluntarios.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvVoluntarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvVoluntarios.Location = new System.Drawing.Point(18, 39);
+            this.dgvVoluntarios.Name = "dgvVoluntarios";
+            this.dgvVoluntarios.RowHeadersWidth = 51;
+            this.dgvVoluntarios.RowTemplate.Height = 24;
+            this.dgvVoluntarios.Size = new System.Drawing.Size(758, 128);
+            this.dgvVoluntarios.TabIndex = 23;
+            this.dgvVoluntarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // frmVoluntarios
             // 
@@ -198,6 +223,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(800, 507);
+            this.Controls.Add(this.dgvVoluntarios);
             this.Controls.Add(this.cboSucursal);
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.numTelefono);
@@ -217,7 +243,9 @@
             this.Controls.Add(this.Voluntarios);
             this.Name = "frmVoluntarios";
             this.Text = "Voluntarios";
+            this.Load += new System.EventHandler(this.frmVoluntarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numTelefono)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVoluntarios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,5 +270,6 @@
         private System.Windows.Forms.NumericUpDown numTelefono;
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.ComboBox cboSucursal;
+        private System.Windows.Forms.DataGridView dgvVoluntarios;
     }
 }

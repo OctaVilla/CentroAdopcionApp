@@ -94,6 +94,45 @@ namespace CentroAdopcionApp.Datos
             }
             return resultado;
         }
+        // Método para obtener las mascotas disponibles para adopción
+        public static List<Mascota> ObtenerMascotasDisponibles()
+        {
+            List<Mascota> lista = new List<Mascota>();
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT * FROM Mascotas WHERE Estado = 'Disponible'";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Mascota m = new Mascota
+                    {
+                        IdMascota = (int)reader["IdMascota"],
+                        Nombre = reader["Nombre"].ToString(),
+                        Edad = Convert.ToInt32(reader["Edad"]),
+                        Tipo = reader["Tipo"].ToString(),
+                        Raza = reader["Raza"].ToString(),
+                        Estado = reader["Estado"].ToString()
+                    };
+                    lista.Add(m);
+                }
+            }
+            return lista;
+        }
+        // Método para marcar una mascota como adoptada
+        public static void MarcarComoAdoptado(int idMascota)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "UPDATE Mascotas SET Estado = 'Adoptado' WHERE IdMascota = @Id";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Id", idMascota);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
 
         public static bool EliminarMascota(int id)
         {

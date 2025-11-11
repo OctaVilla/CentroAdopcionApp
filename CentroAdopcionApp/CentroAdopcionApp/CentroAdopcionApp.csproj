@@ -32,9 +32,20 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>CentroAdopcionApp.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net461\MaterialSkin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,10 +63,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\AdopcionDAO.cs" />
     <Compile Include="Datos\AdoptantesDAO.cs" />
     <Compile Include="Datos\MascotaDAO.cs" />
+    <Compile Include="Datos\VeterinarioDAO.cs" />
+    <Compile Include="Datos\VoluntarioDAO.cs" />
+    <Compile Include="Entidad\Adopcion.cs" />
     <Compile Include="Entidad\Adoptante.cs" />
     <Compile Include="Entidad\Mascota.cs" />
+    <Compile Include="Entidad\Veterinario.cs" />
+    <Compile Include="Entidad\Voluntario.cs" />
     <Compile Include="FrmAcercadp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +97,12 @@
     <Compile Include="frmMascotas.Designer.cs">
       <DependentUpon>frmMascotas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistro.Designer.cs">
+      <DependentUpon>FrmRegistro.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVoluntarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,11 +115,11 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmGatos.cs">
+    <Compile Include="FrmVeterinarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmGatos.Designer.cs">
-      <DependentUpon>FrmGatos.cs</DependentUpon>
+    <Compile Include="FrmVeterinarios.Designer.cs">
+      <DependentUpon>FrmVeterinarios.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -109,12 +132,6 @@
     </Compile>
     <Compile Include="FrmConsultas.Designer.cs">
       <DependentUpon>FrmConsultas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Perros.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Perros.Designer.cs">
-      <DependentUpon>Perros.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -130,23 +147,23 @@
     <EmbeddedResource Include="frmMascotas.resx">
       <DependentUpon>frmMascotas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistro.resx">
+      <DependentUpon>FrmRegistro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmVoluntarios.resx">
       <DependentUpon>FrmVoluntarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmGatos.resx">
-      <DependentUpon>FrmGatos.cs</DependentUpon>
+    <EmbeddedResource Include="FrmVeterinarios.resx">
+      <DependentUpon>FrmVeterinarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultas.resx">
       <DependentUpon>FrmConsultas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Perros.resx">
-      <DependentUpon>Perros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -170,6 +187,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon %281%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

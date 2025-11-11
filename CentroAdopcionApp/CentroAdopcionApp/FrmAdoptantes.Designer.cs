@@ -188,11 +188,11 @@
             // 
             this.dgvAdoptantes.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvAdoptantes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAdoptantes.Location = new System.Drawing.Point(216, 20);
+            this.dgvAdoptantes.Location = new System.Drawing.Point(20, 38);
             this.dgvAdoptantes.Name = "dgvAdoptantes";
             this.dgvAdoptantes.RowHeadersWidth = 51;
             this.dgvAdoptantes.RowTemplate.Height = 24;
-            this.dgvAdoptantes.Size = new System.Drawing.Size(331, 150);
+            this.dgvAdoptantes.Size = new System.Drawing.Size(756, 132);
             this.dgvAdoptantes.TabIndex = 15;
             this.dgvAdoptantes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 

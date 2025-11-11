@@ -1,30 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\centroadopcionapp\\datos\\adoptantesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\datos\\adoptantesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\datos\\adoptantesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|c:\\users\\dell latitude 5290\\desktop\\proyecto-c#\\centroadopcionapp\\centroadopcionapp\\frmmascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmmascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\frmadopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmadopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\centroadopcionapp\\datos\\mascotadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|c:\\users\\dell latitude 5290\\desktop\\proyectogrupalc#\\centroadopcionapp\\centroadopcionapp\\centroadopcionapp\\datos\\adopciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\datos\\adopciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\datos\\mascotadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\datos\\mascotadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\centroadopcionapp\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\centroadopcionapp\\frmadoptantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmadoptantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\entidad\\adopcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\entidad\\adopcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\centroadopcionapp\\frmadoptantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmadoptantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\centroadopcionapp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17217EBF-3ACD-4E33-BC76-A20FFD11F08D}|CentroAdopcionApp\\CentroAdopcionApp.csproj|solutionrelative:centroadopcionapp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,75 +65,140 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmAdoptantes.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\FrmAdoptantes.cs",
-              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmAdoptantes.cs",
-              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\FrmAdoptantes.cs",
-              "RelativeToolTip": "CentroAdopcionApp\\FrmAdoptantes.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADgvyQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T21:05:43.193Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmAdoptantes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\FrmAdoptantes.cs",
-              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmAdoptantes.cs",
-              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\C#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmAdoptantes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\C#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmAdoptantes.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "MascotaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\MascotaDAO.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\Datos\\MascotaDAO.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\MascotaDAO.cs",
+              "RelativeToolTip": "CentroAdopcionApp\\Datos\\MascotaDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T20:54:42.692Z"
+              "WhenOpened": "2025-07-30T20:27:09.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmAdopciones.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmAdopciones.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmAdopciones.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmAdopciones.cs",
+              "RelativeToolTip": "CentroAdopcionApp\\FrmAdopciones.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T20:26:53.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AdoptantesDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\AdoptantesDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\AdoptantesDAO.cs",
               "RelativeDocumentMoniker": "CentroAdopcionApp\\Datos\\AdoptantesDAO.cs",
-              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\AdoptantesDAO.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\AdoptantesDAO.cs",
               "RelativeToolTip": "CentroAdopcionApp\\Datos\\AdoptantesDAO.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T20:52:09.013Z",
+              "WhenOpened": "2025-07-30T20:27:05.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmMenuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\FrmMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\C#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmMenuPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\C#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmMenuPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T19:52:02.899Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MascotaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\MascotaDAO.cs",
-              "RelativeDocumentMoniker": "CentroAdopcionApp\\Datos\\MascotaDAO.cs",
-              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\MascotaDAO.cs",
-              "RelativeToolTip": "CentroAdopcionApp\\Datos\\MascotaDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Title": "AdopcionDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\AdopcionDAO.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\Datos\\AdopcionDAO.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Datos\\AdopcionDAO.cs",
+              "RelativeToolTip": "CentroAdopcionApp\\Datos\\AdopcionDAO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T18:23:45.106Z"
+              "WhenOpened": "2025-07-30T20:27:03.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMascotas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\frmMascotas.cs",
-              "RelativeDocumentMoniker": "CentroAdopcionApp\\frmMascotas.cs",
-              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\Proyecto-C#\\CentroAdopcionApp\\CentroAdopcionApp\\frmMascotas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CentroAdopcionApp\\frmMascotas.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "FrmMenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmMenuPrincipal.cs",
+              "RelativeToolTip": "CentroAdopcionApp\\FrmMenuPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T21:08:25.905Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-30T20:26:36.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmMenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmMenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CentroAdopcionApp\\FrmMenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T20:26:04.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\frmLogin.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\frmLogin.cs",
+              "RelativeToolTip": "CentroAdopcionApp\\frmLogin.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T14:51:56.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Adopcion.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Entidad\\Adopcion.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\Entidad\\Adopcion.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\Entidad\\Adopcion.cs",
+              "RelativeToolTip": "CentroAdopcionApp\\Entidad\\Adopcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T19:58:43.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmRegistro.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmRegistro.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmRegistro.cs",
+              "RelativeToolTip": "CentroAdopcionApp\\FrmRegistro.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T19:36:41.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmRegistro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmRegistro.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\FrmRegistro.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\FrmRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CentroAdopcionApp\\FrmRegistro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T19:36:40.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\frmLogin.cs",
+              "RelativeDocumentMoniker": "CentroAdopcionApp\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Dell Latitude 5290\\Desktop\\ProyectoGrupalC#\\CentroAdopcionApp\\CentroAdopcionApp\\CentroAdopcionApp\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CentroAdopcionApp\\frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T14:51:53.494Z"
             }
           ]
         }

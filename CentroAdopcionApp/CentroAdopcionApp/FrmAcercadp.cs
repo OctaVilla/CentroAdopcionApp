@@ -36,5 +36,10 @@ namespace CentroAdopcionApp
         {
             Application.Exit(); // Cierra todo el programa
         }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
